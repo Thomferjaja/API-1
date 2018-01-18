@@ -1,5 +1,5 @@
 $('button').click(function(){
-    console.log("Salut");
+    console.log("Salut !");
   $('.bg-info').toggle();
 });
 
