@@ -1,3 +1,8 @@
+$('button').click(function(){
+  $('.bg-info').toggle();
+});
+
+
 // on vérifie que notre navigateur supporte les service workers
 if('serviceWorker' in navigator) {
   // si oui, on essaie d'enregistrer notre service worker
@@ -10,6 +15,3 @@ if('serviceWorker' in navigator) {
     console.log(error);
   }
 }
-$('button').click(function(){
-  $('.bg-info').toggle();
-});
