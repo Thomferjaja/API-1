@@ -10,3 +10,6 @@ if('serviceWorker' in navigator) {
     console.log(error);
   }
 }
+$('button').click(function(){
+  $('.bg-info').toggle();
+});
