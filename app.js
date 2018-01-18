@@ -1,7 +1,5 @@
-$('button').click(function(){
-    console.log("Salut !");
-  $('.bg-info').toggle();
-});
+console.log("Salut !");
+
 
 
 // on vérifie que notre navigateur supporte les service workers
