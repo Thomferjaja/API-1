@@ -4,7 +4,6 @@ const RESOURCES_TO_PRELOAD = [
 	'style.css',
   'icon.png',
 	'app.js',
-  'service-worker.js',
 	'manifest.json'
 ];
 
